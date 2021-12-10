@@ -33,7 +33,7 @@
   --navBg:          var(--black);
   --navLinkHoverBg: var(--romanSilver);
   --mainBg:         var(--romanSilver);
-  --fontcolor:      var(--white);
+  --fontColor:      var(--white);
   --navLinkColor:   var(--lightCoral);
   --formBG:         var(--black);
   --formInput:      var(--white);
@@ -197,6 +197,19 @@ input[type=text]:focus {
  background: var(--darkGreen);
  color: var(--white);
 }
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: var(--mainBg);
+  /* the calc functin does exactly what you think it does */
+  /* in this case we are calulating the height based on viewport height */
+  /* minus the nav height, cool right! */
+  height: calc(100vh - var(--navHeight));
+}
+
 
 @media screen and (max-width: 600px) {
   h1, h2 {
