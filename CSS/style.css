@@ -197,3 +197,20 @@ input[type=text]:focus {
  background: var(--darkGreen);
  color: var(--white);
 }
+
+@media screen and (max-width: 600px) {
+  h1, h2 {
+    font-size: 4rem;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #contact{
+  }
+
+  
+
+}
