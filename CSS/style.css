@@ -209,4 +209,9 @@ input[type=text]:focus {
     flex-direction: column;
   }
 
+  .message {
+    order: 1;
+  }
+
+
 }
