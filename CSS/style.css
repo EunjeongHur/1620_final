@@ -204,11 +204,9 @@ input[type=text]:focus {
   }
 
   .myForm {
+    margin: 10px;
     display: flex;
-    justify-content: space-around;
     flex-direction: column;
   }
-
-  
 
 }
